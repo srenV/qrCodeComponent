@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <title>QR code generator | devChallenges.io</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div>
+      <img src="./resources/Logo.svg" alt="" />
+    </div>
+    <div class="before" id="before">
+      <input type="text" name="inputField" id="inputField" placeholder="Enter an url" />
+      <button id="btn">QR code</button>
+    </div>
+    <div class="after" id="after">
+      <div class="qrcode" id="qrcode"></div>
+      <div class="buttonDiv">
+        <button><a download="qrcode" id="download">Download</a></button>
+        <button id="share">Share</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="author-info">
+      Coded by <a href="#">Soeren Timo Voigt</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+    </div>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+
+</html>
