@@ -1,0 +1,87 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: slategray;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.counter{
+    font-size: 3em;
+}
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-size: 1em;
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    border: 2px solid;
+    font-size: 2em;
+    border-radius: 2em;
+    border-top-left-radius: .4em;
+    border-bottom-left-radius: .4em;
+    width: 100%;
+    justify-content: space-between;
+    margin-block: 1em;
+    align-items: center;
+}
+
+.inputField{
+    height: 2.1em;
+    border-radius: 3em;
+    width: 100%;
+    font-size: 2em;
+}
+
+.submitButton{
+    height: 5em;
+    border-radius: 3em;
+    width: 5em;
+    position: absolute;
+    right: 1.2em;
+    cursor: pointer;
+}
+
+.deleteButton{
+    height: 4.5em;
+    border-radius: 2em;
+    position: static;
+    left: 1em;
+}
+
+.checkbox{
+    scale: 4.7;
+    position: relative;
+    left: 1.5em;
+}
+
+footer{
+    position: absolute;
+    bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
